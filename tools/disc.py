@@ -7,7 +7,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NAMES = {0: 'Sugoventure - Dragon Master Silk Gaiden (Japan)'}
 
 
-ROMS = r'C:\claude\roms\ss'      # 원본(읽기만)
+ROMS = r'D:\hospi\My Documents\한글패치\SS\ss'      # 원본(읽기만) — 2026-11-01 C: 사본이 없어져 D: 로
 
 
 def bin_path(n): return os.path.join(ROMS, NAMES[n], NAMES[n] + ' (Track 1).bin')
